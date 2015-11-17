@@ -12,7 +12,9 @@ ggplot(grupos, aes(x=boca)) + geom_histogram()
 # histograma distinto para cada tipo    
 ggplot(grupos, aes(x=boca)) + geom_histogram() + facet_grid(~type)
 #Sin ggplot
-hist(boca$mpg)
+hist(grupos$boca)
+#Para separar los resultados de cada grupo
+hist(grupos$boca [grupos$type == "grupoB"] )
 # mismo experimento, 4 veces menos desv. standard    
 grupoA <- data.frame(boca=rnorm(100,10,0.5))
 grupoA$type='grupoA'
