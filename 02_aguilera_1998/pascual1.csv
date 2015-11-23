@@ -1,0 +1,165 @@
+id;site;area;region;height;width1;width2;diam
+1;Tivissa;Ebre;South;83;20;14;148
+2;Tivissa;Ebre;South;86;21;12;118
+3;Tivissa;Ebre;South;82;19;11;112
+4;Tivissa;Ebre;South;81;19;15;110
+5;Tivissa;Ebre;South;75;21;12;120
+6;Tivissa;Ebre;South;83;20;16;108
+7;Tivissa;Ebre;South;81;20;11;118
+8;Tivissa;Ebre;South;65;22;14;108
+9;Tivissa;Ebre;South;76;17;13;112
+10;Tivissa;Ebre;South;77;20;14;118
+11;Tivissa;Ebre;South;81;20;12;120
+12;Tivissa;Ebre;South;77;19;11;112
+13;Tivissa;Ebre;South;85;21;11;114
+14;Tivissa;Ebre;South;75;20;13;106
+15;Tivissa;Ebre;South;81;21;18;132
+16;Tivissa;Ebre;South;79;22;13;130
+17;Tivissa;Ebre;South;81;20;12;116
+18;Tivissa;Ebre;South;77;18;7;120
+19;Tivissa;Ebre;South;59;17;11;112
+20;Tivissa;Ebre;South;85;21;12;112
+21;Tivissa;Ebre;South;69;17;10;110
+22;Tivissa;Ebre;South;78;20;14;142
+23;Tivissa;Ebre;South;79;21;17;112
+24;Tivissa;Ebre;South;79;21;14;112
+25;Tivissa;Ebre;South;66;17;10;130
+26;Tivissa;Ebre;South;78;20;14;122
+27;Tivissa;Ebre;South;81;20;15;122
+28;Tivissa;Ebre;South;65;18;11;130
+29;Tivissa;Ebre;South;81;20;13;130
+30;Tivissa;Ebre;South;78;20;9;140
+31;Tivissa;Ebre;South;86;17;13;114
+32;Tivissa;Ebre;South;80;19;10;118
+33;Tivissa;Ebre;South;57;13;12;150
+34;Tivissa;Ebre;South;79;17;11;134
+35;Tivissa;Ebre;South;84;19;15;128
+36;Tivissa;Ebre;South;76;12;10;110
+37;Tivissa;Ebre;South;79;21;10;118
+38;Tivissa;Ebre;South;80;21;16;124
+39;Tivissa;Ebre;South;63;16;11;124
+40;Tivissa;Ebre;South;77;20;13;146
+41;Tivissa;Ebre;South;83;18;10;124
+42;Tivissa;Ebre;South;83;19;12;108
+43;Tivissa;Ebre;South;71;19;12;112
+44;Tivissa;Ebre;South;78;20;10;114
+45;Tivissa;Ebre;South;78;17;9;106
+46;Tivissa;Ebre;South;81;20;14;116
+47;Tivissa;Ebre;South;81;23;16;118
+48;Tivissa;Ebre;South;77;19;11;108
+49;Tivissa;Ebre;South;79;19;13;128
+50;Tivissa;Ebre;South;54;16;11;130
+51;Tivissa;Ebre;South;80;22;15;118
+52;Tivissa;Ebre;South;80;18;11;102
+53;Tivissa;Ebre;South;85;20;15;140
+54;Tivissa;Ebre;South;82;19;11;120
+55;Tivissa;Ebre;South;56;15;11;122
+56;Tivissa;Ebre;South;55;15;10;124
+57;Tivissa;Ebre;South;60;16;12;162
+58;Tivissa;Ebre;South;50;13;9;130
+59;Tivissa;Ebre;South;55;15;11;134
+60;Tivissa;Ebre;South;80;20;16;138
+61;Tivissa;Ebre;South;81;21;14;108
+62;Tivissa;Ebre;South;75;19;11;108
+63;Tivissa;Ebre;South;80;21;11;114
+64;Tivissa;Ebre;South;84;21;16;126
+65;Tivissa;Ebre;South;73;21;11;142
+66;Tivissa;Ebre;South;79;20;15;148
+67;Tivissa;Ebre;South;81;21;17;126
+68;Tivissa;Ebre;South;83;21;12;126
+69;Tivissa;Ebre;South;77;16;12;110
+70;Tivissa;Ebre;South;77;21;14;108
+71;Tivissa;Ebre;South;81;19;10;110
+72;Tivissa;Ebre;South;71;21;13;132
+73;Tivissa;Ebre;South;67;18;15;124
+74;Tivissa;Ebre;South;76;20;13;124
+75;Tivissa;Ebre;South;82;22;15;120
+76;Tivissa;Ebre;South;84;21;15;122
+77;Tivissa;Ebre;South;76;20;13;122
+78;Tivissa;Ebre;South;74;17;10;126
+79;Tivissa;Ebre;South;76;16;8;132
+80;Tivissa;Ebre;South;70;16;10;116
+81;Tivissa;Ebre;South;54;17;11;128
+82;Tivissa;Ebre;South;74;18;11;112
+83;Tivissa;Ebre;South;54;14;11;126
+84;Tivissa;Ebre;South;53;18;15;194
+85;Can Feu;Vallès;North;79;19;8;140
+86;Can Feu;Vallès;North;76;16;11;136
+87;Can Feu;Vallès;North;80;18;10;140
+88;Can Feu;Vallès;North;89;18;8;160
+89;Can Feu;Vallès;North;05;20;8;152
+90;Can Feu;Vallès;North;77;18;8;132
+91;Can Feu;Vallès;North;88;18;9;144
+92;Can Feu;Vallès;North;81;15;11;130
+93;Can Feu;Vallès;North;82;16;11;150
+94;Can Feu;Vallès;North;76;16;10;164
+95;Can Feu;Vallès;North;82;15;10;152
+96;Can Feu;Vallès;North;91;16;11;146
+97;Can Feu;Vallès;North;85;16;10;145
+98;Can Feu;Vallès;North;83;16;13;136
+99;Can Feu;Vallès;North;80;17;9;138
+100;Can Feu;Vallès;North;81;19;10;150
+101;Can Feu;Vallès;North;78;18;8;136
+102;Can Feu;Vallès;North;88;20;9;150
+103;Can Feu;Vallès;North;81;16;9;136
+104;Can Feu;Vallès;North;79;11;9;148
+105;Can Feu;Vallès;North;78;18;9;130
+106;Can Feu;Vallès;North;84;19;14;140
+107;Can Feu;Vallès;North;91;17;11;142
+108;Can Feu;Vallès;North;85;17;9;146
+109;Can Feu;Vallès;North;93;19;9;148
+110;Can Feu;Vallès;North;81;16;7;134
+111;Can Feu;Vallès;North;81;16;10;146
+112;Can Feu;Vallès;North;82;17;11;144
+113;Can Feu;Vallès;North;99;17;10;146
+114;Can Feu;Vallès;North;92;15;10;152
+115;Can Feu;Vallès;North;79;16;10;142
+116;Can Feu;Vallès;North;92;18;8;148
+117;Can Feu;Vallès;North;81;18;15;148
+118;Can Feu;Vallès;North;76;16;10;136
+119;Can Feu;Vallès;North;85;17;13;132
+120;Can Feu;Vallès;North;80;19;9;133
+121;Can Feu;Vallès;North;82;16;11;136
+122;Can Feu;Vallès;North;80;17;10;165
+123;Can Feu;Vallès;North;80;17;10;156
+124;Can Feu;Vallès;North;84;18;10;150
+125;Can Feu;Vallès;North;86;16;11;150
+126;Can Feu;Vallès;North;85;15;8;162
+127;Can Feu;Vallès;North;83;19;11;160
+128;Can Feu;Vallès;North;88;17;12;134
+129;Can Feu;Vallès;North;79;16;13;152
+130;Can Feu;Vallès;North;82;19;10;150
+131;Can Feu;Vallès;North;85;17;10;148
+132;Can Feu;Vallès;North;91;26;14;172
+133;Can Feu;Vallès;North;97;20;16;174
+134;Mas Catxorro;Ebre;South;67;15;11;118
+135;Mas Catxorro;Ebre;South;66;17;11;124
+136;Mas Catxorro;Ebre;South;58;15;12;110
+137;Mas Catxorro;Ebre;South;69;15;14;112
+138;Mas Catxorro;Ebre;South;71;17;16;110
+139;Mas Catxorro;Ebre;South;57;17;10;130
+140;Mas Catxorro;Ebre;South;70;16;17;120
+141;Mas Catxorro;Ebre;South;60;14;16;142
+142;Mas Catxorro;Ebre;South;74;17;12;140
+143;Mas Catxorro;Ebre;South;60;14;14;118
+144;Mas Catxorro;Ebre;South;55;17;17;136
+145;Mas Catxorro;Ebre;South;61;16;12;118
+146;Mas Catxorro;Ebre;South;77;17;14;124
+147;Mas Catxorro;Ebre;South;70;17;13;118
+148;Mas Catxorro;Ebre;South;55;17;16;128
+149;Mas Catxorro;Ebre;South;56;15;13;128
+150;Mas Catxorro;Ebre;South;60;18;13;148
+151;Mas Catxorro;Ebre;South;61;19;17;132
+152;Mas Catxorro;Ebre;South;61;16;11;152
+153;Mas Catxorro;Ebre;South;62;16;13;144
+154;Mas Catxorro;Ebre;South;68;16;12;142
+155;Mas Catxorro;Ebre;South;66;16;17;130
+156;Mas Catxorro;Ebre;South;57;18;20;136
+157;Mas Catxorro;Ebre;South;69;15;11;148
+158;Mas Catxorro;Ebre;South;58;14;13;140
+159;Mas Catxorro;Ebre;South;54;17;14;122
+160;Mas Catxorro;Ebre;South;73;16;18;118
+161;Mas Catxorro;Ebre;South;47;14;15;120
+162;Can Portell;Maresme;North;75;17;10;146
+163;Can Portell;Maresme;North;81;21;9;160
+164;Can Portell;Maresme;North;88;18;10;162
