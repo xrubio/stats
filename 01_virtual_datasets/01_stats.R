@@ -69,3 +69,6 @@ medieval <- rnorm(100, 20, 2)
 romano <- rnorm(100,5,0.3)
 ks.test(medieval, romano)
 
+write.table(myData, file="vdata.csv", quote=F, row.names=F, sep=";")
+
+
