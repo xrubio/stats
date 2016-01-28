@@ -78,7 +78,7 @@ logDataSample <- log(sample[,1:8])
 pcaResultsSample <- princomp(logDataSample, center=T, scale=T)
 
 # plot to check the relevance of the first 2 PC'S
-plot(pcaResultsSample)
+#plot(pcaResultsSample)
 
 # get the scores of the data
 pcaValuesSample <- as.data.frame(pcaResultsSample$scores)
@@ -93,9 +93,19 @@ sample$probMalpica <- predQda$posterior[,"Malpica"]
 sample$probBelen <- predQda$posterior[,"belén"]
 pcaValuesSample$class <- predQda$class
 
-g1 <- ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, colour=factor(class))) + geom_point() + facet_grid(~site) + ggtitle("pca1_2")
+#g1 <- ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, colour=factor(class))) + geom_point() + facet_grid(~site) + ggtitle("pca1_2")
 
-ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, col=interaction(site,class), label=site)) + geom_text(size=5) + theme_bw() + theme(legend.position="top")
+#ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, col=interaction(site,class), label=site)) + geom_text(size=5) + theme_bw() + theme(legend.position="top")
 confusionMatrix(pcaValuesSample$class, pcaValuesSample$site)
 
+svg('puntitos.svg')    
+ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, col=site)) + geom_point() + facet_wrap(~correcto, ncol=1) + ylim(c(-0.3,0.3))
+dev.off()
+
+foo <- subset(pcaValuesSample, Comp.1>-1.2)
+foo <- subset(foo, Comp.2>-2.1)
+
+svg('fig_dist.svg')    
+ggplot(foo, aes(x=Comp.1, y=Comp.2)) + geom_density2d(aes(col=site), alpha=0.3) + geom_point(aes(col=site), size=2) + facet_wrap(~site, ncol=1) + theme(legend.position='none')
+dev.off()
 
