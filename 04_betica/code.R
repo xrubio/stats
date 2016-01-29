@@ -98,14 +98,23 @@ pcaValuesSample$class <- predQda$class
 #ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, col=interaction(site,class), label=site)) + geom_text(size=5) + theme_bw() + theme(legend.position="top")
 confusionMatrix(pcaValuesSample$class, pcaValuesSample$site)
 
-svg('puntitos.svg')    
-ggplot(pcaValuesSample, aes(x=Comp.1, y=Comp.2, col=site)) + geom_point() + facet_wrap(~correcto, ncol=1) + ylim(c(-0.3,0.3))
+correct <- subset(pcaValuesSample, site==class)
+incorrect <- subset(pcaValuesSample, site!=class)
+correct$predict <- "pred. correcta"
+incorrect$predict <- "pred. incorrecta"
+
+result <- rbind(correct, incorrect)
+result <- subset(result, Comp.1>-1.2)
+result <- subset(result, Comp.2>-2.1)
+
+
+svg('puntitos.svg', width=15, height=8)    
+ggplot(result, aes(x=Comp.1, y=Comp.2, col=site)) + geom_point(size=3) + facet_wrap(~predict, ncol=2) + ggtitle('resultado PCA+DA')
+        
 dev.off()
 
-foo <- subset(pcaValuesSample, Comp.1>-1.2)
-foo <- subset(foo, Comp.2>-2.1)
 
-svg('fig_dist.svg')    
-ggplot(foo, aes(x=Comp.1, y=Comp.2)) + geom_density2d(aes(col=site), alpha=0.3) + geom_point(aes(col=site), size=2) + facet_wrap(~site, ncol=1) + theme(legend.position='none')
+svg('fig_dist.svg', width=10, height=10)    
+ggplot(result, aes(x=Comp.1, y=Comp.2)) + geom_density2d(aes(col=site), alpha=0.3) + geom_point(aes(col=site), size=2) + facet_wrap(~site, ncol=1) + theme(legend.position='none')
 dev.off()
 
