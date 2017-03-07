@@ -1,3 +1,5 @@
 
 'obsidian.csv' is a refined dataset collected from the Supplementary Materials of Ortega, D., Ibáñez, J., Campos, D., Khalidi, L., Méndez, V., Teira, L., 2016. Systems of Interaction between the First Sedentary Villages in the Near East Exposed Using Agent-Based Modelling of Obsidian Exchange. Systems 4, 18. doi:10.3390/systems4020018
 
+'goldmanUS.csv' and 'goldmanOther.csv' are refined datasets based on the The Goldman Osteometric Data Set (https://web.utk.edu/~auerbach/GOLD.htm). See: Auerbach, B.M., Ruff, C.B., 2006. Limb bone bilateral asymmetry: variability and commonality among modern humans. Journal of Human Evolution 50, 203–218. doi:10.1016/j.jhevol.2005.09.004
+
